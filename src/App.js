@@ -55,7 +55,7 @@ const Pagination = () => {
       </table>
       <div>
         <button onClick={prevPage} disabled={currentPage === 1}>Previous</button>
-        <span>{currentPage}</span>
+        <span>Page {currentPage}</span>
         <button onClick={nextPage} disabled={currentPage === Math.ceil(employees.length / 10)}>Next</button>
       </div>
     </div>
