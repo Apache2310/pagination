@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  justify-content: center;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+th {
+  text-align: left;
+  background-color: green;
+  color: white;
+  padding: 8px;
+  font-size: small;
+  
+}
+
+td {
+  text-align: left;
+  justify-content: center;
+  padding: 8px;
+  font-size: small;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+span{
+  background-color: green;
+  color: white;
+  height: 50px;
+  width: 10px;
+}
+
+/* button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+} */
