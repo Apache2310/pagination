@@ -44,14 +44,19 @@ button {
   border-radius: 6px;
 }
 
-span{
+/* span{
   background-color: green;
   color: white;
-  height: 50px;
-  width: 10px;
-}
-
-/* button:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
 } */
+span {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: green;
+  color: white;
+  height: 30px; 
+  width: 20px; 
+  text-align: center;
+  margin: 0 5px;
+}
