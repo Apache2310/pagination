@@ -20,11 +20,7 @@ const Pagination = () => {
   };
 
   const nextPage = () => {
-    setCurrentPage(prevPage => {
-      const totalPages = Math.ceil(employees.length / 10);
-      const nextPage = Math.min(prevPage + 1, totalPages);
-      return nextPage;
-    });
+    setCurrentPage(prevPage => Math.min(prevPage + 1, Math.ceil(employees.length / 10)));
   };
 
   const prevPage = () => {
